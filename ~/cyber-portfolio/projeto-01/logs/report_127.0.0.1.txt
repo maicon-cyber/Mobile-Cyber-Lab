@@ -1,0 +1,19 @@
+--- RELATÓRIO DE AUDITORIA: 127.0.0.1 ---
+Data: Mon Apr 20 13:27:41 -03 2026
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-04-20 13:27 -0300
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0040s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+8080/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.13)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.62 seconds
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.13.13
+Date: Mon, 20 Apr 2026 16:27:49 GMT
+Content-type: text/html
+Content-Length: 791
+Last-Modified: Sun, 19 Apr 2026 17:25:25 GMT
+
+------------------------------------
