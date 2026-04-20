@@ -14,3 +14,10 @@ Utilizei o **Nmap** para realizar um scan sintético na interface de loopback (1
 - Termux (Ambiente Linux)
 - Nmap (Network Mapper)
 - Python 3 (Servidor de teste)
+
+## ✅ Validação de Segurança
+Após a aplicação das correções (Prepared Statements), realizei um novo scan com SQLMap.
+O resultado confirmou a eficácia da defesa:
+- Detecção de 'Integer Casting' pelo motor do SQLMap.
+- Parâmetro 'id' classificado como não-injetável.
+- Status: REMEDIADO.
