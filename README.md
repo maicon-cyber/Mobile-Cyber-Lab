@@ -21,3 +21,7 @@ O resultado confirmou a eficácia da defesa:
 - Detecção de 'Integer Casting' pelo motor do SQLMap.
 - Parâmetro 'id' classificado como não-injetável.
 - Status: REMEDIADO.
+
+### 🛡️ Proteção de Artefatos
+- Implementação de criptografia assimétrica GnuPG (RSA 4096-bit).
+- Garantia de confidencialidade para logs de auditoria e relatórios de vulnerabilidades.
