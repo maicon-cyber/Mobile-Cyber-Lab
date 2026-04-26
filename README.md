@@ -25,3 +25,5 @@ O resultado confirmou a eficácia da defesa:
 ### 🛡️ Proteção de Artefatos
 - Implementação de criptografia assimétrica GnuPG (RSA 4096-bit).
 - Garantia de confidencialidade para logs de auditoria e relatórios de vulnerabilidades.
+## Análise de XSS
+- Monitoramento de payloads de XSS refletido durante scan do Nikto.
